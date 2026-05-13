@@ -1,14 +1,12 @@
-/* Configuração da Página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ededed; /* Fundo cinza claro da página */
+    background-color: #ededed;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Cabeçalho e Rodapé Escuros */
 header, footer {
     background-color: #3e3e3e; 
     color: white;
@@ -22,7 +20,6 @@ header p, footer p {
     font-size: 14px;
 }
 
-/* Layout do Conteúdo */
 main {
     width: 90%;
     max-width: 600px;
@@ -35,7 +32,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Estilo da Imagem (Moldura Branca) */
 .image-container {
     background-color: white;
     padding: 10px;
@@ -49,9 +45,8 @@ h1 {
     display: block;
 }
 
-/* Caixas de Informação */
 section {
-    background-color: #d9d9d9; /* Cinza um pouco mais escuro para as seções */
+    background-color: #d9d9d9;
     text-align: left;
     padding: 20px;
     margin-bottom: 20px;
