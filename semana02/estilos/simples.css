@@ -1,26 +1,81 @@
-nav {
-    background-color: darkblue;
-    padding: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav a {
-  color: white;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #4a7db5;
+  padding: 6px 10px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
   display: block;
-  padding: 20px;
+  font-size: 0.85em;
+  line-height: 1.8;
+}
+
+main {
+  padding: 8px 10px;
 }
 
 h1 {
-    color: darkblue;
+  font-size: 1.6em;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.profile-img {
+  width: 220px;
+  height: auto;
+  display: block;
+  margin: 6px 0;
+  border: 1px solid #888;
+}
+
+p {
+  line-height: 1.5;
+}
+
+aside {
+  width: 400px;
+  margin: 10px;
+  border: 1px solid #777;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 0.82em;
+}
+
+aside h2 {
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+.place-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 6px auto;
 }
 
 img {
-  width: 150px;
+  max-width: 100%;
   height: auto;
-  border: 1px solid black; 
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
 }
 
-p{
- padding: 10px;
+footer {
+  margin-top: 20px;
+  background-color: #4a7db5;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
