@@ -100,9 +100,6 @@ h2 {
   text-align: center;
 }
 
-/* ==========================================================================
-   REQUISITO EXIGIDO: REGRAS DE POSICIONAMENTO DO HERO (.hero relativo, filhos absolutos)
-   ========================================================================== */
 .hero {
   position: relative;
   background-color: var(--cor-branca);
@@ -131,14 +128,9 @@ h2 {
   right: 24px;
   bottom: 24px;
   background-color: rgba(255, 255, 255, 0.88);
-  /* REQUISITO EXIGIDO: Utilizando obrigatoriamente a variável --cor-destaque2 */
-  border-left: 6px solid var(----cor-destaque2);
-  border-left-color: var(--cor-destaque2);
+  border-left: 6px solid var(--cor-destaque2);
 }
 
-/* ==========================================================================
-   DEMAIS SEÇÕES E LAYOUTS
-   ========================================================================== */
 .mission-section {
   display: grid;
   grid-template-columns: 1fr 200px;
