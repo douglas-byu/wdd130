@@ -42,15 +42,18 @@ header {
   display: block;
 }
 
-header nav {
+.nav-container {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .navegacao {
   display: flex;
   list-style: none;
   gap: 15px;
+  padding: 0;
+  margin: 0;
 }
 
 .navegacao li {
@@ -120,6 +123,12 @@ h2 {
   text-align: justify;
 }
 
+.history-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .history-grid img {
   width: 100%;
   height: auto;
@@ -143,6 +152,7 @@ h2 {
   border-radius: 4px;
   padding: 6px;
   text-align: center;
+  margin: 0;
 }
 
 .adventure-gallery img {
@@ -177,6 +187,9 @@ footer p {
   display: flex;
   gap: 12px;
   justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .socialmedia img {
