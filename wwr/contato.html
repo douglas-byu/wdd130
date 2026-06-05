@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Entre em contato com a Companhia de Rafting em Corredeiras. Envie suas dúvidas, sugestões ou mensagens sobre reservas.">
+    <meta name="author" content="Douglas Silva">
+    <title>Fale Conosco | Rafting em Corredeiras</title>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="Logotipo oficial da Companhia de Rafting" class="logo">
+        <nav>
+            <ul class="navegacao">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="trips.html">Viagens</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Título principal da página e informações de contato -->
+        <section class="titulo-pagina">
+            <h1>Companhia de Rafting em Corredeiras</h1>
+            <p>123 Rua Principal do Rio</p>
+            <p>Foz do Iguaçu, Paraná</p>
+            <p>+55 45 99999-9999</p>
+            <p>info@correiras.com</p>
+        </section>
+
+        <!-- Container com layout dividido: Mapa na esquerda, Formulário na direita -->
+        <div class="container-contato">
+
+            <!-- Bloco do Mapa Google Incorporado -->
+            <div class="mapa-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m4!1m2!1d-54.5800!2d-25.5400!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDMyJzAwLjAiUyA1NMMKwDM0JzAwLjAiVw!5e0!3m2!1spt-BR!2sbr!4v1640000000000"
+                    width="100%" height="100%" allowfullscreen="" loading="lazy" title="Mapa de localização da empresa">
+                </iframe>
+            </div>
+
+            <!-- Formulário HTML -->
+            <form action="#" method="post">
+                <fieldset>
+
+                    <!-- Nome -->
+                    <div class="item-formulario coluna2">
+                        <label for="nomecompleto">Nome</label>
+                        <input type="text" id="nomecompleto" name="nomecompleto" placeholder="Digite aqui" required>
+                    </div>
+
+                    <!-- E-mail -->
+                    <div class="item-formulario coluna2">
+                        <label for="emaildousuario">E-mail</label>
+                        <input type="email" id="emaildousuario" name="emaildousuario" placeholder="Digite aqui"
+                            required>
+                    </div>
+
+                    <!-- Propósito da Mensagem - Radio Buttons -->
+                    <div class="item-formulario coluna1">
+                        <label>Propósito da Mensagem</label>
+                        <div class="opcoes-radio">
+                            <label><input type="radio" name="proposito" value="geral" checked> Dúvida Geral</label>
+                            <label><input type="radio" name="proposito" value="reserva"> Pergunta sobre Reserva</label>
+                            <label><input type="radio" name="proposito" value="sugestao"> Sugestão de Site</label>
+                        </div>
+                    </div>
+
+                    <!-- Mensagem - Textarea -->
+                    <div class="item-formulario bloco-texto">
+                        <label for="feedback">Mensagem</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Digite aqui" required></textarea>
+                    </div>
+
+                    <!-- Newsletter - Checkbox -->
+                    <div class="item-formulario checkbox-container">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Por favor, me inscreva na newsletter mensal</label>
+                    </div>
+
+                    <!-- Botão de Envio -->
+                    <button type="submit">Entrar em Contato</button>
+
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- Seção: Perfis de Funcionários -->
+        <section class="funcionarios-section">
+            <h2>Estamos Aqui para Servi-lo</h2>
+            <div class="funcionarios-grid">
+                <figure>
+                    <img src="imagens/perfil1.jpg" alt="Foto de perfil do funcionário Carlos">
+                    <figcaption><strong>Carlos Silva</strong><br>Guia Chefe</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/perfil2.jpg" alt="Foto de perfil da funcionária Ana">
+                    <figcaption><strong>Ana Costa</strong><br>Coordenadora de Segurança</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/perfil3.jpg" alt="Foto de perfil do funcionário Mateus">
+                    <figcaption><strong>Mateus Rocha</strong><br>Atendimento ao Cliente</figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Corrente Viva Rafting | Douglas Silva</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="imagens/facebook.svg" alt="Ícone do Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="imagens/instagram.svg" alt="Ícone do Instagram">
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="imagens/linkedin.svg" alt="Ícone do LinkedIn">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
