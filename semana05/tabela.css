@@ -1,0 +1,39 @@
+/* Configuração geral da tabela */
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Configuração das células de cabeçalho e dados */
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Passo 2.2: Estilizando os elementos específicos pedidos */
+
+/* Cabeçalho da tabela: Fundo preto e texto branco */
+thead th {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Rodapé da tabela: Fundo preto, texto branco e negrito */
+tfoot tr {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Alinhamento específico para as células que agrupam as Ligas (Sul / Oeste) */
+.liga-celula {
+    font-weight: bold;
+}
