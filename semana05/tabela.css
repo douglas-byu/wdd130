@@ -1,4 +1,4 @@
-/* Configuração geral da tabela */
+/* Configurações gerais da tabela */
 table {
     width: 100%;
     max-width: 800px;
@@ -8,7 +8,7 @@ table {
     font-size: 14px;
 }
 
-/* Configuração das células de cabeçalho e dados */
+/* Configuração de todas as células e bordas */
 th,
 td {
     border: 1px solid #ccc;
@@ -16,8 +16,6 @@ td {
     text-align: center;
     vertical-align: middle;
 }
-
-/* Passo 2.2: Estilizando os elementos específicos pedidos */
 
 /* Cabeçalho da tabela: Fundo preto e texto branco */
 thead th {
@@ -30,10 +28,5 @@ thead th {
 tfoot tr {
     background-color: #000000;
     color: #ffffff;
-    font-weight: bold;
-}
-
-/* Alinhamento específico para as células que agrupam as Ligas (Sul / Oeste) */
-.liga-celula {
     font-weight: bold;
 }
