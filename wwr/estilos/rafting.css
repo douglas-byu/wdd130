@@ -52,10 +52,15 @@ header nav {
 .navegacao {
   display: flex;
   list-style: none;
+  list-style-type: none;
   gap: 15px;
+  padding: 0;
+  margin: 0;
 }
 
 .navegacao li {
+  list-style: none;
+  list-style-type: none;
   flex: 1 1 auto;
 }
 
@@ -95,6 +100,130 @@ h1 {
 
 h2 {
   text-align: center;
+}
+
+.hero {
+  position: relative;
+  background-color: var(--cor-branca);
+  padding: 0;
+}
+
+.hero>img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  background-color: rgba(7, 59, 76, 0.82);
+  color: var(--cor-branca);
+}
+
+.hero article {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  background-color: rgba(255, 255, 255, 0.88);
+  border-left: 6px solid var(--cor-destaque2);
+}
+
+.mission-section {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 20px;
+  align-items: center;
+}
+
+.mission-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.mission-section p {
+  line-height: 1.6;
+}
+
+.history-section {
+  display: grid;
+  grid-template-columns: 1fr 220px 1fr;
+  gap: 20px;
+  align-items: center;
+  text-align: justify;
+}
+
+.history-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.history-section p {
+  line-height: 1.6;
+}
+
+.adventure-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.adventure-section figure {
+  background-color: var(--cor-clara);
+  border: 1px solid var(--cor-borda);
+  border-radius: 4px;
+  padding: 6px;
+  text-align: center;
+  margin: 0;
+}
+
+.adventure-section img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.adventure-section figcaption {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 6px;
+  color: var(--cor-destaque1);
+}
+
+/* Base Layout elements */
+footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 15px 16px;
+  background-color: var(--cor-branca);
+  border-top: 3px solid var(--cor-secundaria);
+  margin-top: 30px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer nav.redes-sociais {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.redes-sociais img {
+  width: 32px;
+  height: 32px;
+  display: block;
 }
 
 .titulo-pagina {
@@ -144,6 +273,8 @@ form {
 
 form fieldset {
   border: none;
+  padding: 0;
+  margin: 0;
   display: grid;
   grid-gap: 16px;
 }
@@ -240,8 +371,7 @@ form button[type="submit"]:hover {
 
 .funcionarios-section {
   background-color: var(--cor-cinza-claro);
-  padding: 25px;
-  display: block;
+  padding: 25px !important;
 }
 
 .funcionarios-section h2 {
@@ -263,6 +393,7 @@ form button[type="submit"]:hover {
   border-radius: 4px;
   padding: 20px;
   text-align: center;
+  margin: 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
@@ -283,34 +414,10 @@ form button[type="submit"]:hover {
   font-size: 14px;
   line-height: 1.4;
   color: var(--cor-destaque1);
+  text-align: center;
 }
 
 .funcionarios-grid figcaption strong {
   font-size: 16px;
   color: var(--cor-primaria);
-}
-
-footer {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  padding: 15px 16px;
-  background-color: var(--cor-branca);
-  border-top: 3px solid var(--cor-secundaria);
-  margin-top: 30px;
-}
-
-footer p {
-  font-size: 0.9rem;
-}
-
-footer nav.redes-sociais {
-  display: flex;
-  gap: 12px;
-}
-
-.redes-sociais img {
-  width: 32px;
-  height: 32px;
-  display: block;
 }
