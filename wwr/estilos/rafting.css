@@ -5,6 +5,8 @@
   --cor-destaque2: #ffd166;
   --cor-clara: #f5fbff;
   --cor-branca: #ffffff;
+  --cor-borda: #b5b5b5;
+  --cor-cinza-claro: #eaeaea;
   --fonte-titulo: Arial, Helvetica, sans-serif;
   --fonte-body: Helvetica, Arial, sans-serif;
 }
@@ -175,7 +177,7 @@ h2 {
 
 .adventure-section figure {
   background-color: var(--cor-clara);
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--cor-borda);
   border-radius: 4px;
   padding: 6px;
   text-align: center;
@@ -210,14 +212,14 @@ footer p {
   font-size: 0.9rem;
 }
 
-footer nav.socialmedia {
+footer nav.redes-sociais {
   display: flex;
   gap: 12px;
   justify-content: flex-end;
   margin-left: auto;
 }
 
-.socialmedia img {
+.redes-sociais img {
   width: 32px;
   height: 32px;
   display: block;
@@ -258,7 +260,7 @@ footer nav.socialmedia {
 .mapa-container {
   width: 100%;
   min-height: 350px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--cor-borda);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -299,7 +301,7 @@ form input[type="email"],
 form textarea {
   width: 100%;
   padding: 8px 12px;
-  border: 1px solid #777;
+  border: 1px solid var(--cor-destaque1);
   border-radius: 4px;
   font-family: var(--fonte-body);
   font-size: 14px;
@@ -345,9 +347,9 @@ input[type="checkbox"] {
 }
 
 form button[type="submit"] {
-  background-color: #000080;
+  background-color: var(--cor-primaria);
   color: var(--cor-branca);
-  border: 1px solid #000055;
+  border: 1px solid var(--cor-destaque1);
   padding: 10px 24px;
   font-size: 14px;
   font-weight: bold;
@@ -359,11 +361,11 @@ form button[type="submit"] {
 }
 
 form button[type="submit"]:hover {
-  background-color: #000055;
+  background-color: var(--cor-destaque1);
 }
 
 .funcionarios-section {
-  background-color: #eaeaea;
+  background-color: var(--cor-cinza-claro);
   padding: 25px !important;
 }
 
@@ -380,7 +382,7 @@ form button[type="submit"]:hover {
 
 .funcionarios-grid figure {
   background-color: var(--cor-branca);
-  border: 1px solid #b5b5b5;
+  border: 1px solid var(--cor-borda);
   border-radius: 4px;
   padding: 15px;
   text-align: center;
