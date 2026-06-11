@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Explore nossos passeios de rafting na Corrente Viva Rafting. Oferecemos opções para famílias, aventureiros intermediários e entusiastas de adrenalina extrema.">
+  <meta name="author" content="Douglas Silva">
+  <title>Nossos Passeios | Corrente Viva Rafting</title>
+  <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+  <header>
+    <img src="imagens/logo.png" alt="Logotipo oficial da Corrente Viva Rafting" class="logo">
+    <nav>
+      <ul class="navegacao">
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="passeios.html">Passeios</a></li>
+        <li><a href="contato.html">Fale Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="titulo-pagina">
+      <h1>Nossos Passeios de Rafting</h1>
+      <p>Escolha a aventura ideal para o seu nível e prepare-se para momentos inesquecíveis.</p>
+    </section>
+
+    <!-- Seção de Passeios Detalhados (Layout Grid/Flex em rafting.css) -->
+    <section class="passeios-grid-container">
+      <h2>Opções de Aventuras</h2>
+      
+      <div class="passeios-grid">
+        <!-- Passeio 1 -->
+        <article class="passeio-card">
+          <img src="imagens/tour1.jpg" alt="Família sorrindo e remando em um rio calmo e seguro">
+          <div class="passeio-info">
+            <h3>Aventura Familiar</h3>
+            <p class="passeio-desc">
+              Perfeito para iniciantes, crianças e quem busca contemplar a natureza. Uma descida tranquila pelo Rio Paranapanema com corredeiras leves e muitas paradas para banho.
+            </p>
+            <ul class="passeio-detalhes">
+              <li><strong>Duração:</strong> 2 horas</li>
+              <li><strong>Dificuldade:</strong> Nível I (Fácil)</li>
+              <li><strong>Idade mínima:</strong> 6 anos</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Passeio 2 -->
+        <article class="passeio-card">
+          <img src="imagens/tour2.jpg" alt="Aventureiros em ação descendo uma corredeira com bastante espuma e água espirrando">
+          <div class="passeio-info">
+            <h3>Desafio Radical</h3>
+            <p class="passeio-desc">
+              Muita emoção e adrenalina no Rio Jacaré! Ideal para quem busca um desafio moderado com ondas maiores, quedas rápidas e manobras emocionantes orientadas por guias experientes.
+            </p>
+            <ul class="passeio-detalhes">
+              <li><strong>Duração:</strong> 3 horas</li>
+              <li><strong>Dificuldade:</strong> Nível III (Moderado)</li>
+              <li><strong>Idade mínima:</strong> 12 anos</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Passeio 3 -->
+        <article class="passeio-card">
+          <img src="imagens/tour3.jpg" alt="Bote de rafting profissional quase vertical em uma corredeira extrema cercada por cânions de pedra">
+          <div class="passeio-info">
+            <h3>Expedição Extrema</h3>
+            <p class="passeio-desc">
+              Adrenalina pura no Cânion das Pedras. Indicado para quem tem experiência ou busca o limite das fortes corredeiras com quedas técnicas e ação intensa do início ao fim.
+            </p>
+            <ul class="passeio-detalhes">
+              <li><strong>Duração:</strong> 4 horas</li>
+              <li><strong>Dificuldade:</strong> Nível IV (Avançado)</li>
+              <li><strong>Idade mínima:</strong> 16 anos</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Tabela Comparativa de Passeios -->
+    <section class="tabela-section">
+      <h2>Tabela Comparativa de Passeios</h2>
+      <div class="tabela-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Passeio</th>
+              <th>Rio</th>
+              <th>Dificuldade</th>
+              <th>Duração</th>
+              <th>Idade Mín.</th>
+              <th>Preço por Pessoa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Aventura Familiar</strong></td>
+              <td>Rio Paranapanema</td>
+              <td>Nível I (Fácil)</td>
+              <td>2 horas</td>
+              <td>6 anos</td>
+              <td>R$ 120,00</td>
+            </tr>
+            <tr>
+              <td><strong>Desafio Radical</strong></td>
+              <td>Rio Jacaré</td>
+              <td>Nível III (Moderado)</td>
+              <td>3 horas</td>
+              <td>12 anos</td>
+              <td>R$ 180,00</td>
+            </tr>
+            <tr>
+              <td><strong>Expedição Extrema</strong></td>
+              <td>Cânion das Pedras</td>
+              <td>Nível IV (Avançado)</td>
+              <td>4 horas</td>
+              <td>16 anos</td>
+              <td>R$ 250,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Chamada para Ação (CTA) para Contato -->
+    <section class="passeios-cta">
+      <h2>Pronto para Viver Essa Aventura?</h2>
+      <p>As vagas para os passeios de fim de semana são limitadas. Fale conosco agora mesmo para tirar dúvidas e fazer a sua reserva!</p>
+      <a href="contato.html" class="btn-passeios-cta">Fale Conosco / Reservar</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Corrente Viva Rafting | Douglas Silva</p>
+    <nav class="redes-sociais">
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <img src="imagens/facebook.svg" alt="Facebook da empresa">
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <img src="imagens/instagram.svg" alt="Instagram da empresa">
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <img src="imagens/linkedin.svg" alt="LinkedIn da empresa">
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>
